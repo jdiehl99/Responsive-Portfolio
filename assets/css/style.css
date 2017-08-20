@@ -10,8 +10,8 @@
 }
 
 @media screen and (max-width: 640px) {
-    body {
-        background-color: green;
+    [class*="col-"] {
+        width: 100%;
     }
 }
 
@@ -42,20 +42,11 @@ h2 {
 p {
     margin-bottom: 10px;
 }
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-a:active {
-    text-decoration: underline;
-}
 .nav-bgcolor {
     background-color: #FFFAE2;
+}
+a:hover.nav-link {
+    background-color: #F2DF8E;
 }
 .col-bg {
     background: #FFFAE2;
