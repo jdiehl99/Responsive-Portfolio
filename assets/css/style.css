@@ -48,6 +48,12 @@ p {
 a:hover.nav-link {
     background-color: #F2DF8E;
 }
+a:link.navbar-brand {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #E86F0B;
+    font-weight: bold;
+    font-size: 20px; 
+}
 .col-bg {
     background: #FFFAE2;
     padding: 10px;
