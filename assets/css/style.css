@@ -1,4 +1,25 @@
 /* rice paper main color: #EFEAD4 */
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media print {
+    body {
+        background-color: #fff;
+    }
+}
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #7F764B;
@@ -35,11 +56,6 @@ a:active {
 }
 .nav-bgcolor {
     background-color: #FFFAE2;
-}
-.container-main {
-    width: 960px;
-    margin: 0 auto;
-    @include make-container();
 }
 .col-bg {
     background: #FFFAE2;
